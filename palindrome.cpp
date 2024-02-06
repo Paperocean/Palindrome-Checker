@@ -11,6 +11,7 @@ using namespace std;
 bool is_palindrome(const string& s) {
     deque<char> d;
 
+    // More complexe solution for the lines: 23:26
     //vector<char> vec;
     //for (size_t i = 0; i < s.size(); i++) {
     //    if (isalpha(s.at(i)))
